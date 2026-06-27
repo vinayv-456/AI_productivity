@@ -26,7 +26,6 @@ public class TodoService {
     public Todo create(Todo todo) {
         long id = idGenerator.getAndIncrement();
         Todo newTodo = new Todo(id, todo.getTitle(), todo.getDescription(), todo.isCompleted());
-        System.out.println("id" + id);
         todos.put(id, newTodo);
         return newTodo;
     }
