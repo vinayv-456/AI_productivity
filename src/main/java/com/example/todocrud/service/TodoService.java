@@ -28,6 +28,7 @@ public class TodoService {
         System.out.println("id" + id);
         Todo newTodo = new Todo(id, todo.getTitle(), todo.getDescription(), todo.isCompleted());
         todos.put(id, newTodo);
+        System.out.println("newTodo"+ newTodo.getTitle());
         return newTodo;
     }
 
