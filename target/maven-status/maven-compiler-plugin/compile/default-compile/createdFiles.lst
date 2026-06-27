@@ -1,0 +1,4 @@
+com\example\todocrud\service\TodoService.class
+com\example\todocrud\controller\TodoController.class
+com\example\todocrud\model\Todo.class
+com\example\todocrud\TodoCrudApplication.class
